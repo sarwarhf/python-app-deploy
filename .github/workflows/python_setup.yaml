@@ -3,7 +3,7 @@ on:
         push:
 jobs:
         python-setup:
-                runs-on: ubuntu:latest
+                runs-on: ubuntu-latest
                 steps:
                         - name: checkout respository
                           uses: actions/checkout@v4
